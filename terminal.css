@@ -1,0 +1,66 @@
+body {
+    background-image: url(./assets/background-blue.png);
+    background-size: 15px 15px;
+    background-repeat: repeat;
+}
+
+h1 {
+    height: 10%;
+    color: white;
+    text-align: center;
+}
+
+.terminal-container {
+    border-radius: 10px 10px 10px 10px;
+    background-color: grey;
+    height: 300px;
+    width: 800px;
+    margin-top: 5%;
+    margin-right: 17.5%;
+    margin-left: 17.5%;
+}
+
+.terminal-header {
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 10%;
+    width: 100%;
+    background-color: #505050;
+}
+
+.terminal {
+    color: white;
+    margin-top: 0.75%;
+    margin-left: 1%;
+}
+
+.point {
+    display: flex;
+    width: 7%;
+    margin-right: 1%;
+    justify-content: space-between;
+}
+
+.point-items {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    background-color: grey;
+    height: 12.5px;
+    width: 12.5px;
+    border-radius: 6.25px;
+}
+
+.terminal-text {
+    height: 80%;
+    background-color: black;
+    color: white;
+}
+
+.terminal-footer {
+    border-radius:0 0 10px 10px;
+    height: 10%;
+    background-color: #505050;
+}

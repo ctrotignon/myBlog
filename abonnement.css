@@ -1,0 +1,45 @@
+div {
+    text-align: center;
+}
+
+
+.container {
+    width: 610px ;
+    height: 210px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: space-between;
+    flex-wrap: wrap;
+    background-color: blue;
+}
+
+.subcontainer {
+    display: flex;
+
+    background-color: yellow;
+    margin-bottom: 10px;
+    height: 100px;
+    width: 300px;
+}
+
+.cours {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 200px;
+
+    height: 20px;
+    width: 70px;
+
+    font-size: 1rem;
+    
+
+
+    background-color: red;
+    color: black;
+    border-radius: 10px;
+}
